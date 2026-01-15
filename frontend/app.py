@@ -3,7 +3,7 @@ import requests
 import time
 import datetime
 
-API_URL = "https://movie-review-app-ufdd.onrender.com"
+API_URL = "http://127.0.0.1:8000"
 
 st.set_page_config(
     page_title="MOVIEREVIEW.AI",

@@ -35,7 +35,6 @@ review_counter = 1
 # --- 감성 분석 모델 로드 ---
 print("⏳ AI 모델을 로드하고 있어... (처음엔 몇 분 걸릴 수 있어!)")
 try:
-    # 한국어 감성 분석 모델 (경량화된 버전 추천: WhitePeak/bert-base-cased-korean-sentiment 같은 것도 좋지만 기존 유지)
     sentiment_analyzer = pipeline(
         "text-classification",
         model="matthewburke/korean_sentiment"
