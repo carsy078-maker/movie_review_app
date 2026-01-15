@@ -3,8 +3,7 @@ import requests
 import time
 import datetime
 
-# --- 1. 기본 설정 ---
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://movie-review-app-ufdd.onrender.com"
 
 st.set_page_config(
     page_title="MOVIEREVIEW.AI",
