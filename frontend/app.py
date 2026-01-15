@@ -4,6 +4,7 @@ import time
 import datetime
 
 API_URL = "http://127.0.0.1:8000"
+st.write(f"👀 현재 연결 시도 중인 주소: {API_URL}")
 
 st.set_page_config(
     page_title="MOVIEREVIEW.AI",
